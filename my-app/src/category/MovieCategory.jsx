@@ -8,7 +8,7 @@ export const MovieCategory = () => {
     <div className='category'>
       <span className="listTitle">History</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined></ArrowBackIosOutlined>
+        <ArrowBackIosOutlined className='arrow left'></ArrowBackIosOutlined>
         <div className='listContainer'>
           <ListItem/>
           <ListItem/>
@@ -18,7 +18,22 @@ export const MovieCategory = () => {
           <ListItem/>
           <ListItem/>
         </div>
-        <ArrowForwardIosOutlined></ArrowForwardIosOutlined>
+        <ArrowForwardIosOutlined className='arrow right'></ArrowForwardIosOutlined>
+      </div>
+
+      <span className="listTitle">Continue to Watch</span>
+      <div className="wrapper">
+        <ArrowBackIosOutlined className='arrow'></ArrowBackIosOutlined>
+        <div className='listContainer'>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+        </div>
+        <ArrowForwardIosOutlined className='arrow'></ArrowForwardIosOutlined>
       </div>
     </div>
   )
