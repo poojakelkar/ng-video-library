@@ -40,18 +40,35 @@
                 font-size: 24px;
                 font-weight: 300;
             }
-            button{
-                padding: 14px;
-                width: 15vw;
-                background-color:#E50914;
-                cursor: pointer;
-                color: white;
-                font-weight: 500;
-                font-size: 18px;
-                border: none;
+            .buttons{
+                display: flex;
 
-                &:hover{
-                    background-color: #fa4753;
+                button{
+                    padding: 10px 20px;
+                    margin-right: 10px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 12vw;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 18px;
+                    span{
+                        margin-left: 5px;
+                    }
+
+                    &.watch{
+                        background-color:#E50914;
+                    }
+                    &.info{
+                        background-color: gray;
+                    }
+                    &:hover{
+                        background-color: #222;
+                    }
                 }
             }
         }
