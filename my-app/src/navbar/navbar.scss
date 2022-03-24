@@ -1,0 +1,35 @@
+.navbar{
+    color: black;
+    font-size: 18px;
+    
+
+    .container{
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        height: 50px;  
+    }
+    .left{
+        display: flex;
+        align-items: center;
+
+        img{
+            height: 25px;
+            margin-right: 40px;
+        }
+        span{
+            margin-right: 60px;
+            cursor: pointer;
+        }
+    }
+    
+    .right{
+        display: flex;
+        align-items: center;
+        .icon{
+            margin: 0px 15px;
+        }
+    }
+
+}
