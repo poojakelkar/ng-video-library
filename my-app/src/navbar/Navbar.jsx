@@ -11,6 +11,7 @@ export const Navbar = () => {
                 <span>Homepage</span>
                 <span>Series</span>
                 <span>Movies</span>
+                <span>Watch Later</span>
             </div>
             <div className="right">
                 <Search className='icon'></Search>
@@ -18,7 +19,12 @@ export const Navbar = () => {
                 <AccountCircle className='icon'></AccountCircle>
                 <div className="userProfile">
                   <ArrowDropDown className='icon'></ArrowDropDown>
-                  <div className="options"></div>
+                  <div className="options">
+                    <span>Saved</span>
+                    <span>History</span>
+                    <span>Profile</span>
+                    <span>Logout</span>
+                  </div>
                 </div>
             </div>
         </div>
