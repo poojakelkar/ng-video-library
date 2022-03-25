@@ -1,7 +1,8 @@
 import './app.scss';
-import { Home } from './home/Home';
+//import { Home } from './mainPages/home';
+import VideoPlayer from './mainPages/video/VideoPlayer';
 
 const App = ()=>{
-  return <Home/>
+  return <VideoPlayer/>
 }
 export default App;
