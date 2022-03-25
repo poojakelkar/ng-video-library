@@ -1,0 +1,41 @@
+.category{
+    width: 100%;
+    margin-top: 10px;
+    .listTitle{
+        font-size: 24px;
+        margin-left: 50px;
+        font-weight: 500;
+        color: white;
+    }
+    .wrapper{
+        position: relative;
+        .arrow{
+            cursor: pointer;
+            position: absolute;
+            background-color: rgba(22,22,22,0.5);
+            width: 50px;
+            height: 100%;
+            color: white;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            z-index: 999;
+
+            &.left{
+                left: 0;
+            }
+
+            &.right{
+                right: 0;
+            }
+        }
+
+        .listContainer{
+            display: flex;
+            width: max-content;
+            margin: 20px 0px 10px 50px;
+            transform: translateX(0px);
+            transition: all 1s ease;
+        }
+    }
+}

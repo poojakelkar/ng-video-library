@@ -1,7 +1,7 @@
 import React from 'react'
-import { MovieCategory } from '../category/MovieCategory'
-import { ImageSlider } from '../latestPicture/ImageSlider'
-import { Navbar } from '../navbar/Navbar'
+import { MovieCategory } from '../component/category/MovieCategory'
+import { ImageSlider } from '../component/latestPicture/ImageSlider'
+import { Navbar } from '../component/navbar/Navbar'
 import './home.scss'
 
 export const Home = () => {
@@ -10,6 +10,7 @@ export const Home = () => {
         <Navbar></Navbar>
         <ImageSlider></ImageSlider>
         <MovieCategory/>
+        <MovieCategory/>        
     </div>
   )
 }
