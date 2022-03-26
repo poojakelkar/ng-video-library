@@ -1,9 +1,10 @@
 import './app.scss';
-import Register from './mainPages/register/Register';
+import { Login } from './mainPages/login/Login';
+//import Register from './mainPages/register/Register';
 //import { Home } from './mainPages/home';
 //import VideoPlayer from './mainPages/video/VideoPlayer';
 
 const App = ()=>{
-  return <Register></Register>
+  return <Login></Login>
 }
 export default App;
